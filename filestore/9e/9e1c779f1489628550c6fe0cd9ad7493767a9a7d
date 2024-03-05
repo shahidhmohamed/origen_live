@@ -1,0 +1,23 @@
+
+                .o_company_1_layout {
+                font-family: Roboto;
+                &.o_report_layout_standard {
+                    h2 {
+                        color: #3faaf2;
+                    }
+                    #informations strong {
+                        color: #1471a7;
+                    }
+                    #total strong{
+                        color: #3faaf2;
+                    }
+                    .totals_taxes_company_currency strong{
+                        color: #3faaf2;
+                    }
+                    table {
+                        thead {
+                            color: #1471a7;
+                        }
+                    }
+                }
+            }
