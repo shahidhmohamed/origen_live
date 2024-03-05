@@ -1,0 +1,656 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+
+  <template id="origen_theme.empty_page" name="Empty page">
+    <div id="wrap">
+      <div class="oe_structure"></div>
+    </div>
+  </template>
+
+
+  <template id="origen_theme.service_page_template" name="Service Page Template">
+    <section id="landing" class="black">
+      <div class="wrapper">
+        <div>
+          <div class="title">
+            <h1 class="autoline">Data Storage</h1>
+          </div>
+          <p>Origen offers a high availability and dedicated Fiber Internet Connection for mid to large enterprises delivered via fiber optic. Connection are backed by high quality bandwidth and exceptional customer service.</p>
+          <a href="/contact#contact_form" class="button yellow">Contact us</a>
+        </div>
+        <div><img src="/origen_theme/static/src/img/services/storage/lenovo.png" alt=""/></div>
+      </div>
+    </section>
+
+    <section class="black">
+      <div class="headline">
+        <h2>Storage solutions we offer</h2>
+      </div>
+
+      <ul class="bullet_list big_title">
+        <li class="bullet_point">
+          <span class="yellow">Scale-out Storage</span>
+          <p>With multiple high quality upstream providers specializing in specific regions, Origen gives you a direct Fiber Internet connection to any part of the world.</p>
+        </li>
+        <li class="bullet_point">
+          <span class="yellow">File Storage</span>
+          <p>Because Origen has direct upstream to target geographical locations and ample bandwidth, the likelihood where in the world is minimal.</p>
+        </li>
+        <li class="bullet_point">
+          <span class="yellow">Block Storage</span>
+          <p>Whereas most fiber internet providers only have one upstream, Origen has a whole portfolio. Many of these upstreams would have to go down before our customers even notice a slowdown, let alone go down.</p>
+        </li>
+        <li class="bullet_point">
+          <span class="yellow">Specilaized Storage and Distributed file systems</span>
+          <p>Most fiber internet service provider saturate their upstream by oversubscribing the amount of customers in relation to their total capacity. Origen has almost a 1 to 1 ration keeping bandwidth available.</p>
+        </li>
+      </ul>
+    </section>
+
+    <section class="black">
+      <div class="headline">
+        <h3>Our Storage Partners</h3>
+      </div>
+      <div class="icons_list faded7 hover9">
+        <img src="/origen_theme/static/src/img/brands/dell_white.png" alt="Dell logo"/>
+        <img src="/origen_theme/static/src/img/brands/ddn_white.png" alt="DDN logo"/>
+        <img src="/origen_theme/static/src/img/brands/lenovo_white.png" alt="Lenovo logo"/>
+        <img src="/origen_theme/static/src/img/brands/netapp_white.png" alt="NetApp logo"/>
+        <img src="/origen_theme/static/src/img/brands/qumulo_white.png" alt="Qumulo logo"/>
+        <img src="/origen_theme/static/src/img/brands/qnap_white.png" alt="QNAP logo"/>
+        <img src="/origen_theme/static/src/img/brands/hpe_white.png" alt="HPE logo"/>
+        <img src="/origen_theme/static/src/img/brands/ibm_white.png" alt="IBM logo"/>
+        <img src="/origen_theme/static/src/img/brands/fujitsu_white.png" alt="Fujitsu logo"/>
+        <img src="/origen_theme/static/src/img/brands/tintri_white.png" alt="Fujitsu logo"/>
+      </div>
+    </section>
+
+  </template>
+
+
+
+  <template id="origen_theme.service_text_image" name="Service Text Image">
+    <section class="gray presentation_service illustration_gray_background services_text-image">
+      <div class="wrapper">
+        <div class="text">
+          <h2>La technologie, moteur de votre entreprise</h2>
+        </div>
+
+        <div class="image">
+          <img src="/origen_theme/static/src/img/services/storage/data.svg" alt=""/>
+        </div>
+      </div>
+    </section>
+  </template>
+
+
+
+  <template id="origen_theme.service_bullet_points" name="Service Bullet Points">
+    <section class="black">
+      <div class="headline">
+        <h2>Storage solutions we offer</h2>
+      </div>
+
+      <ul class="bullet_list big_title">
+        <li class="bullet_point">
+          <span class="yellow">Scale-out Storage</span>
+          <p>With multiple high quality upstream providers specializing in specific regions, Origen gives you a direct Fiber Internet connection to any part of the world.</p>
+        </li>
+        <li class="bullet_point">
+          <span class="yellow">File Storage</span>
+          <p>Because Origen has direct upstream to target geographical locations and ample bandwidth, the likelihood where in the world is minimal.</p>
+        </li>
+        <li class="bullet_point">
+          <span class="yellow">Block Storage</span>
+          <p>Whereas most fiber internet providers only have one upstream, Origen has a whole portfolio. Many of these upstreams would have to go down before our customers even notice a slowdown, let alone go down.</p>
+        </li>
+        <li class="bullet_point">
+          <span class="yellow">Specilaized Storage and Distributed file systems</span>
+          <p>Most fiber internet service provider saturate their upstream by oversubscribing the amount of customers in relation to their total capacity. Origen has almost a 1 to 1 ration keeping bandwidth available.</p>
+        </li>
+      </ul>
+    </section>
+  </template>
+
+  <template id="origen_theme.service_partners_logos" name="Service Partners Logos">
+    <section class="black">
+      <div class="headline">
+        <h3>Our Storage Partners</h3>
+      </div>
+      <div class="icons_list faded7 hover9">
+        <img src="/origen_theme/static/src/img/brands/dell_white.png" alt="Dell logo"/>
+        <img src="/origen_theme/static/src/img/brands/ddn_white.png" alt="DDN logo"/>
+        <img src="/origen_theme/static/src/img/brands/lenovo_white.png" alt="Lenovo logo"/>
+        <img src="/origen_theme/static/src/img/brands/netapp_white.png" alt="NetApp logo"/>
+        <img src="/origen_theme/static/src/img/brands/qumulo_white.png" alt="Qumulo logo"/>
+        <img src="/origen_theme/static/src/img/brands/qnap_white.png" alt="QNAP logo"/>
+        <img src="/origen_theme/static/src/img/brands/hpe_white.png" alt="HPE logo"/>
+        <img src="/origen_theme/static/src/img/brands/ibm_white.png" alt="IBM logo"/>
+        <img src="/origen_theme/static/src/img/brands/fujitsu_white.png" alt="Fujitsu logo"/>
+        <img src="/origen_theme/static/src/img/brands/tintri_white.png" alt="Fujitsu logo"/>
+      </div>
+    </section>
+  </template>
+
+
+
+  <template id="origen_theme.service_knowledge_stack" name="Service Kowledge Stack">
+
+
+    <section class="black extra_padding">
+      <div class="headline">
+        <h2 class="boxed_gradient">Origen Knowledge <span class="autoline full">stack</span></h2>
+      </div>
+
+      <div class="knowledge-stack">
+        <div class="stack">
+          <div class="text">
+            <h3>Workloads</h3>
+            <ul>
+              <li>HPC</li>
+              <li>AI</li>
+              <li>CCTV</li>
+              <li>Broadcast </li>
+              <li>Datacenter</li>
+              <li>VFX</li>
+              <li>Big Data</li>
+            </ul>
+          </div>
+        </div>
+        <div class="stack">
+          <div class="text">
+            <h3>Technologies</h3>
+            <ul>
+              <li>GPFS</li>
+              <li>PNFS</li>
+              <li>NFS</li>
+              <li>NVME</li>
+              <li>Fiber Channel</li>
+              <li>ISCZI</li>
+            </ul>
+          </div>
+        </div>
+        <div class="stack">
+          <div class="text">
+            <h3>Industries</h3>
+            <ul>
+              <li>Oil and Gas</li>
+              <li>Academic Research</li>
+              <li>Financial Services</li>
+              <li>Life Sciences</li>
+              <li>Manufacturing</li>
+              <li>Media</li>
+              <li>Oil and Gas</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+
+  </template>
+
+
+
+  <template id="origen_theme.service_knowledge_stackv2" name="Service Kowledge Stack V2">
+
+
+    <section class="black no_padding">
+      <div class="headline">
+        <h2 class="o_default_snippet_text">Origen Knowledge <span class="boxed_gradient o_default_snippet_text">stack</span></h2>
+      </div>
+      <div class="knowledge-stackv2">
+        <div class="stack">
+          <div class="stack_background" data-name="default_template" style="background-image:url('')"></div>
+          <div class="text">
+            <h3 class="o_default_snippet_text">Workloads</h3>
+            <ul>
+              <li class="o_default_snippet_text" data-target="hpc" >HPC</li>
+              <li class="o_default_snippet_text">AI</li>
+              <li class="o_default_snippet_text">CCTV</li>
+              <li class="o_default_snippet_text">Broadcast </li>
+              <li class="active o_default_snippet_text">Datacenter</li>
+              <li class="o_default_snippet_text">VFX</li>
+              <li class="o_default_snippet_text">Big Data</li>
+            </ul>
+            <div>
+              <p class="o_default_snippet_text">Understanding workloads is a key factor to delivering  the right storage solutions. Here are some of theworkloads part of the Origen knowledge stack.</p>
+            </div>
+          </div>
+        </div>
+        <div class="stack">
+          <div class="text">
+            <h3 class="o_default_snippet_text">Technologies</h3>
+            <ul>
+              <li class="o_default_snippet_text">GPFS</li>
+              <li class="o_default_snippet_text">PNFS</li>
+              <li class="o_default_snippet_text">NFS</li>
+              <li class="o_default_snippet_text">NVME</li>
+              <li class="o_default_snippet_text">Fiber Channel</li>
+              <li>iSCSI</li>
+              <li class="">Infiniband</li>
+              <li>Luster</li>
+            </ul>
+            <div>
+              <p class="o_default_snippet_text">Each solution takes a different approach and familiarity with technical specifications is crucial. Origen has the undertand of key techlogies in the storage world.</p>
+            </div>
+          </div>
+        </div>
+        <div class="stack">
+          <div class="text">
+            <h3 class="o_default_snippet_text">Industries</h3>
+            <ul>
+              <li class="o_default_snippet_text">Oil and Gas</li>
+              <li class="o_default_snippet_text">Academic Research</li>
+              <li class="o_default_snippet_text">Financial Services</li>
+              <li class="o_default_snippet_text">Life Sciences</li>
+              <li class="">Manufacturing</li>
+              <li class="o_default_snippet_text">Media</li>
+              <li>Oil and Gas</li>
+              <li>Technology</li>
+            </ul>
+            <div>
+              <p class="o_default_snippet_text">Every industry comes with their own challegnes and needs. Knowing and having the ability to cater to each industry is vital.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </template>
+
+
+
+
+
+
+  <template id="origen_theme.service_knowledge_stackv3" name="Service Kowledge Stack V3">
+
+
+    <section class="black">
+      <div class="headline">
+        <h2 class="o_default_snippet_text">Origen Knowledge <span class="boxed_gradient o_default_snippet_text">stack</span></h2>
+      </div>
+      <div class="knowledge-stackv3">
+        <div class="stack">
+          <div class="text">
+            <h3 class="o_default_snippet_text">Workloads</h3>
+            <ul>
+              <li>HPC</li>
+              <li>AI</li>
+              <li>CCTV</li>
+              <li>Broadcast </li>
+              <li>Datacenter</li>
+              <li>VFX</li>
+              <li>Big Data</li>
+            </ul>
+            <div>
+              <p>Understanding workloads is a key factor to delivering  the right storage solutions. Here are some of theworkloads part of the Origen knowledge stack.</p>
+            </div>
+          </div>
+          <div class="image">
+            <img src="/origen_theme/static/src/img/services/lab.png" alt=""/>
+            <img src="/origen_theme/static/src/img/services/ecommerce.png" alt=""/>
+            <img src="/origen_theme/static/src/img/services/smartcity.png" alt=""/>
+          </div>
+        </div>
+        <div class="stack">
+          <div class="text">
+            <h3 class="o_default_snippet_text">Technologies</h3>
+            <ul>
+              <li>GPFS</li>
+              <li>PNFS</li>
+              <li>NFS</li>
+              <li>NVME</li>
+              <li>Fiber Channel</li>
+              <li>iSCSI</li>
+              <li>Infiniband</li>
+              <li>Luster</li>
+            </ul>
+            <div>
+              <p>Each solution takes a different approach and familiarity with technical specifications is crucial. Origen has the undertand of key techlogies in the storage world.</p>
+            </div>
+          </div>
+          <div class="image">
+            <img src="/origen_theme/static/src/img/services/business_analysis.png" alt=""/>
+            <img src="/origen_theme/static/src/img/services/tech.png" alt=""/>
+            <img src="/origen_theme/static/src/img/services/ai.png" alt=""/>
+          </div>
+        </div>
+        <div class="stack">
+          <div class="text">
+            <h3 class="o_default_snippet_text">Industries</h3>
+            <ul>
+              <li>Oil and Gas</li>
+              <li>Academic Research</li>
+              <li>Financial Services</li>
+              <li>Life Sciences</li>
+              <li>Manufacturing</li>
+              <li>Media</li>
+              <li>Oil and Gas</li>
+              <li>Technology</li>
+            </ul>
+            <div>
+              <p>Every industry comes with their own challegnes and needs. Knowing and having the ability to cater to each industry is vital.</p>
+            </div>
+          </div>
+          <div class="image">
+            <img src="/origen_theme/static/src/img/services/travel.png" alt=""/>
+            <img src="/origen_theme/static/src/img/services/bank.png" alt=""/>
+            <img src="/origen_theme/static/src/img/services/gps.png" alt=""/>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </template>
+
+
+
+
+
+
+  <template id="origen_theme.explore_other_services" name="Explore other services">
+
+
+    <section class="black extra_padding services_grid_wrapper">
+      <div class="headline">
+        <h2 class="">Explore more  <span class="autoline full">services</span></h2>
+      </div>
+
+      <div class="services_grid">
+        <a href="/services/voip" class="service">
+          <div class="wrapper">
+            <img src="/origen_theme/static/src/img/products/pbxserverphone.png" alt=""/>
+            <h4 class="o_default_snippet_text">Compute and Hyperconverged</h4>
+          </div>
+        </a>
+        <a href="/services/voip" class="service">
+          <div class="wrapper">
+            <img src="/origen_theme/static/src/img/products/cloud-backup.png" alt=""/>
+            <h4 class="o_default_snippet_text">Dedicated Internet</h4>
+          </div>
+        </a>
+        <a href="/services/voip" class="service">
+          <div class="wrapper">
+            <img src="/origen_theme/static/src/img/products/pbxserverphone.png" alt=""/>
+            <h4 class="o_default_snippet_text">Endpoint Devices</h4>
+          </div>
+        </a>
+        <a href="/services/voip" class="service">
+          <div class="wrapper">
+            <img src="/origen_theme/static/src/img/products/pbxserverphone.png" alt=""/>
+            <h4 class="o_default_snippet_text">Unified communication &amp; PBX</h4>
+          </div>
+        </a>
+        <a href="/services/voip" class="service">
+          <div class="wrapper">
+            <img src="/origen_theme/static/src/img/products/pbxserverphone.png" alt=""/>
+            <h4 class="o_default_snippet_text">Networking</h4>
+          </div>
+        </a>
+        <a href="/services/voip" class="service">
+          <div class="wrapper">
+            <img src="/origen_theme/static/src/img/products/pbxserverphone.png" alt=""/>
+            <h4 class="o_default_snippet_text">Storage</h4>
+          </div>
+        </a>
+      </div>
+    </section>
+
+
+  </template>
+
+  <template id="origen_theme.featured_products_tagsv2" name="Featured products with tags 2">
+    <section class="black extra_padding">
+      <div class="headline">
+        <h2 class="o_default_snippet_text">Featured <span class="autoline full">products</span></h2>
+      </div>
+      <div class="featured_productsv2">
+        <div class="stack">
+          <div class="image">
+            <img src="https://www.ddn.com/wp-content/uploads/2019/11/AI200X-300.png" />
+          </div>
+          <div class="description">
+            <span>DDN AI200X</span>
+            <p>Scale-out storage architecture allows total amount of disk space to be expanded quickly through the addition of devices in connected arrays Great for constantly growing environment with large amount of data.</p>
+          </div>
+        </div>
+        <div class="stack">
+          <div class="image">
+            <img src="https://www.lenovo.com/medias/lenovo-data-center-storage-san-thinksystem-de-all-flash-series.png?context=bWFzdGVyfHJvb3R8MTg2ODF8aW1hZ2UvcG5nfGgxYS9oY2MvOTgxNzk4MjIzODc1MC5wbmd8MGUxNzUwYWE4ZDdmZTRiZDVjZGQ4NzNlNTQ4ZDI3NjNmMzJhZTkzMjQ4ZGU0MjU4YjViYmMzZTg1YmRlZDAwZg" />
+          </div>
+          <div class="description">
+            <span>Lenovo DE6000F</span>
+            <p>Scale-out storage architecture allows total amount of disk space to be expanded quickly through the addition of devices in connected arrays Great for constantly growing environment with large amount of data.</p>
+          </div>
+        </div>
+        <div class="stack">
+          <div class="image">
+            <img src="https://www.tintri.com/sites/default/files/paragraph-images/Tintri_all-flash_array_masthead.png"/>
+          </div>
+          <div class="description">
+            <span>tintri EC 6000</span>
+            <p>Scale-out storage architecture allows total amount of disk space to be expanded quickly through the addition of devices in connected arrays Great for constantly growing environment with large amount of data.</p>
+          </div>
+        </div>
+        <div class="stack">
+          <div class="image">
+            <img src="https://h50003.www5.hpe.com/digmedialib/prodimg/lowres/i00042782.png"/>
+          </div>
+          <div class="description">
+            <span>HPE Nimble AF80</span>
+            <p>Scale-out storage architecture allows total amount of disk space to be expanded quickly through the addition of devices in connected arrays Great for constantly growing environment with large amount of data.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </template>
+
+
+  <template id="origen_theme.featured_products_tags" name="Featured products with tags">
+    <section class="black extra_padding">
+      <div class="headline">
+        <h2 class="o_default_snippet_text">Featured products</h2>
+      </div>
+      <div class="featured_products">
+        <div>
+          <img src="https://www.ddn.com/wp-content/uploads/2019/11/AI200X-300.png" />
+          <span>DDN AI200X</span>
+          <ul>
+            <li class="boxed_gradient_thin">NVMe</li>
+            <li class="boxed_gradient_thin">Academia</li>
+            <li class="boxed_gradient_thin">AI</li>
+          </ul>
+        </div>
+        <div>
+          <img src="https://www.lenovo.com/medias/lenovo-data-center-storage-san-thinksystem-de-all-flash-series.png?context=bWFzdGVyfHJvb3R8MTg2ODF8aW1hZ2UvcG5nfGgxYS9oY2MvOTgxNzk4MjIzODc1MC5wbmd8MGUxNzUwYWE4ZDdmZTRiZDVjZGQ4NzNlNTQ4ZDI3NjNmMzJhZTkzMjQ4ZGU0MjU4YjViYmMzZTg1YmRlZDAwZg" />
+          <span>Lenovo DE6000F</span>
+          <ul>
+            <li class="boxed_gradient_thin">NVMe</li>
+            <li class="boxed_gradient_thin">Academia</li>
+            <li class="boxed_gradient_thin">AI</li>
+          </ul>
+        </div>
+        <div>
+          <img src="https://www.tintri.com/sites/default/files/paragraph-images/Tintri_all-flash_array_masthead.png"/>
+          <span>tintri EC 6000</span>
+          <ul>
+            <li class="boxed_gradient_thin">NVMe</li>
+            <li class="boxed_gradient_thin">Academia</li>
+            <li class="boxed_gradient_thin">AI</li>
+          </ul>
+        </div>
+        <div>
+          <img src="https://h50003.www5.hpe.com/digmedialib/prodimg/lowres/i00042782.png"/>
+          <span>HPE Nimble AF80</span>
+          <ul>
+            <li class="boxed_gradient_thin">NVMe</li>
+            <li class="boxed_gradient_thin">Academia</li>
+            <li class="boxed_gradient_thin">AI</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </template>
+
+
+  <template id="origen_theme.service_contact_template" name="Service contact Template">
+    <section class="services_contact">
+      <div class="wrapper">
+        <div>
+          <h2>Contact us</h2>
+          <div class="contact_feature">
+            <div><img class="svg" src="/origen_theme/static/src/img/icons/checkbox.svg" alt="Checked checkbox"/></div>
+            <div>
+              <h4>We are a technical team</h4>
+              <p>Feel free to include all your requirements or questions in details, we know our stuff</p>
+            </div>
+          </div>
+          <div class="contact_feature">
+            <div><img class="svg" src="/origen_theme/static/src/img/icons/conf.svg" alt="Video conference"/></div>
+            <div>
+              <h4>Prefer another medium?</h4>
+              <p>Include in your message whatever other means of communication you prefer, be it phone, IM, or video conference</p>
+            </div>
+          </div>
+          <div class="contact_feature">
+            <div><img class="svg icon_phone" src="/origen_theme/static/src/img/icons/phone.svg" alt="Phone"/></div>
+            <div>
+              <h4>Want to chat? Call us!</h4>
+              <p><a href="tel:+18556967443" class="button yellow">Dial +1 855 696 7443</a></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="form contact_form">
+          <form action="/website_form/" method="post" data-model_name="crm.lead" data-success_page="/contactus-thank-you" enctype="multipart/form-data" data-editable-form="false" class="s_website_form">
+            <div class="input_group">
+              <label for="">Full name:</label>
+              <input type="text" required="true" name="name" t-att-value="request.params.get('name', '')"/>
+            </div>
+            <div class="input_group">
+              <label for="">Email address:</label>
+              <input type="email" required="true" name="email_from" t-att-value="request.params.get('email_from', '')" />
+            </div>
+            <div class="input_group">
+              <label for="">Company name:</label>
+              <input type="text" name="partner_name" t-att-value="request.params.get('partner_name', '')"/>
+            </div>
+
+            <div class="input_group">
+              <label for="">Your message:</label>
+              <textarea name="description" id="" cols="30" rows="10" required="true"><t t-esc="request.params.get('description', '')"/></textarea>
+            </div>
+            <input type="hidden" name="source_page" t-att-value="request.httprequest.url"/>
+            <div class="input_group send_button">
+              <span class="button blue send">Send</span>
+              <i class="fa fa-spinner fa-pulse fa-2x fa-fw d-none"></i>
+              <span class="btn btn-primary btn-lg o_website_form_send d-none">Send</span>
+              <span id="o_website_form_result"></span>
+            </div>
+            <div class="error_messages d-none">
+              <span class="section_title">Name</span>
+              <span data-field="name" data-rule="required">Please fill in your name</span>
+              <span class="section_title">Email</span>
+              <span data-field="email_from" data-rule="required">Please provide your email</span>
+              <span data-field="email_from" data-rule="email">Please enter a valid email</span>
+              <span class="section_title">Company</span>
+              <span data-field="partner_name" data-rule="required"></span>
+              <span class="section_title">Message</span>
+              <span data-field="description" data-rule="required">Please write your message</span>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </template>
+
+
+
+  <data noupdate="1">
+    <!-- noupdate=1 to avoid overwriting the
+      content with the blank plage -->
+
+
+
+      <record id="storage" model="website.page">
+        <field name="name">Storage</field>
+        <field name="website_published">True</field>
+        <field name="url">/services/storage</field>
+        <field name="type">qweb</field>
+        <field name="key">origen_theme.storage</field>
+        <field name="arch" type="xml">
+          <t t-name="origen_theme.storage_page">
+            <t t-call="origen_theme.layout">
+              <div id="wrap">
+                <div class="oe_structure"></div>
+              </div>
+
+            </t>
+          </t>
+        </field>
+      </record>
+
+
+
+      <record id="endpoint_devices" model="website.page">
+        <field name="name">Endpoint Devices</field>
+        <field name="website_published">True</field>
+        <field name="url">/services/endpoint_devices</field>
+        <field name="type">qweb</field>
+        <field name="key">origen_theme.endpoint_devices</field>
+        <field name="arch" type="xml">
+          <t t-name="origen_theme.storage_page">
+            <t t-call="origen_theme.layout">
+              <div id="wrap">
+                <div class="oe_structure"></div>
+              </div>
+
+            </t>
+          </t>
+        </field>
+      </record>
+
+
+      <record id="networking" model="website.page">
+        <field name="name">Networking</field>
+        <field name="website_published">True</field>
+        <field name="url">/services/networking</field>
+        <field name="type">qweb</field>
+        <field name="key">origen_theme.networking</field>
+        <field name="arch" type="xml">
+          <t t-name="origen_theme.storage_page">
+            <t t-call="origen_theme.layout">
+              <div id="wrap">
+                <div class="oe_structure"></div>
+              </div>
+
+            </t>
+          </t>
+        </field>
+      </record>
+
+      <record id="compute" model="website.page">
+        <field name="name">Compute</field>
+        <field name="website_published">True</field>
+        <field name="url">/services/compute</field>
+        <field name="type">qweb</field>
+        <field name="key">origen_theme.compute</field>
+        <field name="arch" type="xml">
+          <t t-name="origen_theme.storage_page">
+            <t t-call="origen_theme.layout">
+              <div id="wrap">
+                <div class="oe_structure"></div>
+              </div>
+
+            </t>
+          </t>
+        </field>
+      </record>
+
+    </data>
+
+  </odoo>

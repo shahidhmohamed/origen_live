@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+  <template id="origen_theme.voip_page_template" name="VoIP Page Template">
+    <section id="landing" class="black">
+      <div class="wrapper">
+        <div>
+          <div class="title">
+            <h1 class="autoline">Hosted VoIP PBX</h1>
+          </div>
+          <p>Origen has experience with IP PBX for over 10 years now. Change the way you do business with our Hosted PBX and benefit from high-end VoIP features.</p>
+          <a href="/contact#contact_form" class="button yellow">Get an estimate</a>
+        </div>
+        <div><img src="/origen_theme/static/src/img/products/polycomconf.png" alt=""/></div>
+      </div>
+    </section>
+
+
+
+    <section class="white">
+      <div class="headline">
+        <h2>Why Does a VoIP System Matter?</h2>
+      </div>
+
+      <div class="feature_list">
+        <ul>
+          <li>
+            <img src="/origen_theme/static/src/img/icons/graph.svg" alt=""/>
+            <span>Advanced Call Management</span>
+            <p>Get all your reports with your professional interface. Build your own statistics and take advantage of all the features.</p>
+          </li>
+          <li>
+            <img src="/origen_theme/static/src/img/icons/receptionist.svg" alt=""/>
+            <span>Auto-Receptionist</span>
+            <p>Welcome your customer 24/7 at a professional level, and customize it your own way.</p>
+          </li>
+          <li>
+            <img src="/origen_theme/static/src/img/icons/phone.svg" alt=""/>
+            <span>Your Extension</span>
+            <p>Get your own extension to be reached easily. Forget about cascade lines, you will have your personal extension number.</p>
+          </li>
+          <li>
+            <img src="/origen_theme/static/src/img/icons/flag.svg" alt=""/>
+            <span>Follow-Me</span>
+            <p>Don't ever miss a call and get it even when you are out of the office. Wherever you are, you will always get your call.</p>
+          </li>
+        </ul>
+      </div>          
+    </section>
+
+    <section class="black high_value_features">
+      <div class="headline">
+        <h2 class="autoline">High-Value Features</h2>
+      </div>
+      <div class="left_right_block">
+        <div class="text">
+          <span class="autoline full">Welcome Your Customers at a Professional Level</span>
+          <p>
+            An auto-attendant menu, also called Interactive Voice Response,
+            is a prerecorded menu. 
+            An IVR : 
+            <ul class="regular">
+              <li>Improves the company image</li>
+              <li>Welcomes your customer with a greeting message 24/7</li>
+              <li>Forwards calls to different employees or departments within your company</li>
+              <li>Makes it easier to manage calls</li>
+              <li>Improves Customer Service</li>
+            </ul>
+          </p>
+        </div>
+        <div class="picture">
+          <div class="picture">
+            <img class="radius-top-10" src="/origen_theme/static/src/img/services/voip/browser_frame.jpg" alt="" />
+            <img class="radius-bottom-10" src="/origen_theme/static/src/img/services/voip/Queue_Stats.gif" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <div class="left_right_block">
+        <div class="text">
+          <span class="autoline full">Get your own personal extension</span>
+          <p>
+            An auto-attendant menu, also called Interactive Voice Response,
+            is a prerecorded menu. 
+            An IVR : 
+          </p>
+          <ul class="regular">
+            <li>Improves the company image</li>
+            <li>Welcomes your customer with a greeting message 24/7</li>
+            <li>Forwards calls to different employees or departments within your company</li>
+            <li>Makes it easier to manage calls</li>
+            <li>Improves Customer Service</li>
+          </ul>              
+        </div>
+        <div class="picture"><img src="/origen_theme/static/src/img/services/voip/Get-your-own-personal-extension.png" alt=""/></div>
+      </div>
+
+      <div class="left_right_block">
+        <div class="text">
+          <span class="autoline full">Don't ever miss a call again</span>
+          <p>
+            Redirect your calls to a single or multiple local or worldwide phone numbers. Ring all at once or one after the other, you will always get the call wherever you are.
+          </p>
+        </div>
+        <div class="picture"><img src="/origen_theme/static/src/img/services/voip/Dont-ever-miss-a-call-again.png" alt=""/></div>
+      </div>
+    </section>
+
+
+    <section class="white leftright_standard1">
+      <div class="headline">
+        <h2>Immediate Savings, Long Term Profits</h2>
+      </div>
+
+      <div class="left_right_block">
+        <div class="text">
+          <span>All Featured Included</span>
+          <p>Be assured to always have all our brand-new features available in your plan. You don't need to pay more to get more, we offer the complete VoIP package.</p>
+        </div>
+        <div class="picture"><img src="/origen_theme/static/src/img/services/voip/All-Features-Included.png" alt=""/></div>
+      </div>
+
+      <div class="left_right_block">
+        <div class="text">
+          <span>Unlimited Canada &amp; USA Calling</span>
+          <p>Enjoy unlimited long distance calling within Canada and the USA, 24/7 with Origen VoIP Technology.</p>
+        </div>
+        <div class="picture"><img src="/origen_theme/static/src/img/services/voip/USA-and-Canada-calling.png" alt=""/></div>
+      </div>          
+
+    </section>
+
+    <section class="black">
+      <div class="headline">
+        <h2>Everything You Will See or Hear From Us is Specifically Designed to Meet your <span class="autoline full">Entrepreneurial Needs</span></h2>
+      </div>
+      <div class="center">
+        <a href="/contact#contact_form" class="button yellow">Get an estimate</a>
+      </div>
+    </section>
+
+
+
+    <section class="light">
+      <div class="headline">
+        <h2>Easy to use interface with extensive options</h2>
+      </div>        
+      <div class="list_select floating" data-auto="true">
+
+        <div class="title">
+          <span class="active full"><span class="arrow"><img src="/origen_theme/static/src/img/icons/dropdown.svg" alt=""/></span><span class="text">Unlimited ACD Queues, Call agents, Comprehensive reporting</span></span>
+          <span class="full"><span class="arrow"><img src="/origen_theme/static/src/img/icons/dropdown.svg" alt=""/></span><span class="text">Queues and agent performance</span></span>
+          <span class="full"><span class="arrow"><img src="/origen_theme/static/src/img/icons/dropdown.svg" alt=""/></span><span class="text">Real time queue statistics &amp; scheduled reports</span></span>
+          <span class="full"><span class="arrow"><img src="/origen_theme/static/src/img/icons/dropdown.svg" alt=""/></span><span class="text">Real time agent monitoring</span></span>
+          <span class="full"><span class="arrow"><img src="/origen_theme/static/src/img/icons/dropdown.svg" alt=""/></span><span class="text">Build with a purpose - Call center apps: Supervisor &amp; Agent editions</span></span>
+          <span class="full"><span class="arrow"><img src="/origen_theme/static/src/img/icons/dropdown.svg" alt=""/></span><span class="text">Live call monitoring</span></span>
+        </div>
+
+        <div class="current_text">
+          <div></div>
+        </div>        
+
+        <div class="content">
+          <img class="active" src="/origen_theme/static/src/img/services/voip/Call Center PBX Wallboard.png" alt=""/>
+          <img src="/origen_theme/static/src/img/services/voip/queues.png" alt=""/>
+          <img src="/origen_theme/static/src/img/services/voip/statistics.png" alt=""/>
+          <img src="/origen_theme/static/src/img/services/voip/Real-time-agent-monitoring.png" alt=""/>
+          <img src="/origen_theme/static/src/img/services/voip/Built-with-a-purpose.png" alt=""/>
+          <img src="/origen_theme/static/src/img/services/voip/Live-call-monitoring.png" alt=""/>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="radial_gray no_side_padding">
+      <div class="headline">
+        <h2>A beautiful mobile app</h2>
+      </div>             
+      <div class="list_select arrow phone" data-auto="true">
+
+        <div class="title">
+          <span class="full"><span class="arrow"><img src="/origen_theme/static/src/img/icons/dropdown.svg" alt=""/></span><span class="text">Conference call</span></span>
+          <span class="active full"><span class="arrow"><img src="/origen_theme/static/src/img/icons/dropdown.svg" alt=""/></span><span class="text">Visual voicemail</span></span>          
+          <span class="full"><span class="arrow"><img src="/origen_theme/static/src/img/icons/dropdown.svg" alt=""/></span><span class="text">Reports on the go</span></span>
+          <span class="full"><span class="arrow"><img src="/origen_theme/static/src/img/icons/dropdown.svg" alt=""/></span><span class="text">Your team at a glance</span></span>
+          <span class="full"><span class="arrow"><img src="/origen_theme/static/src/img/icons/dropdown.svg" alt=""/></span><span class="text">Profiles and customisation</span></span>
+        </div>
+
+        <div class="content">
+          <img src="/origen_theme/static/src/img/services/voip/group-call.png" alt=""/>
+          <img class="active" src="/origen_theme/static/src/img/services/voip/voicemail.png" alt=""/>
+          <img src="/origen_theme/static/src/img/services/voip/reports.png" alt=""/>
+          <img src="/origen_theme/static/src/img/services/voip/team.png" alt=""/>
+          <img src="/origen_theme/static/src/img/services/voip/profile.png" alt=""/>
+        </div>
+
+      </div>            
+    </section>
+
+    <section class="black no_overflow">
+
+      <div class="pbx_select_features">
+        <div class="level_select">
+          <button data-element="standard" data-style="black" class="active">Standard Features</button>
+          <button data-element="callcenter" data-style="black">Call-Center</button>
+        </div>
+
+        <div class="levels black">
+          <div class="standard black">
+            <div class="card">
+              <span class="title">Enhanced Services</span>
+              <div class="info">
+                <p>Enhanced Services allows users to fully adjust settings like Caller ID, Call Pickup, Call Filters &amp; Blocking, Call Forwarding etc.</p>
+              </div>
+            </div>
+            <div class="card">
+              <span class="title">Call recording</span>
+              <div class="info">
+                <p>Origen offers multiple options to enable call recording, defining whether you would like to inform call parties that call recording is turned on or not. Call recording can be enabled globally, for the entire system, or lower level per Tenan, DID, Extension, Ring group etc.</p>
+              </div>
+            </div>
+            <div class="card">
+              <span class="title">Voicemail</span>
+              <div class="info">
+                <p>Origen voicemail is an advanced answering machine that allows callers to leave voicemail messages in case a user is not able to answer the call. Altough each Origen extension is usually equiped with a voice mailbox, voice mailboxes can be created on their own.</p>
+              </div>
+            </div>
+            <div class="card">
+              <span class="title">Auto provisioning</span>
+              <div class="info">
+                <p>Auto provisioning allows you to automatically configure your phones by pointing them to Origen PBX tftp/http address. In order to use auto provisioning you must use onr of the devices frim the supported UADs list and configure your Origen extension with a matching UAD and MAC address.</p>
+              </div>
+            </div>            
+            <div class="card">
+              <span class="title">Caller ID and Name ID</span>
+              <div class="info">
+                <p>Allows users to set a custom Caller ID that will be displayed on the Phone display of the called party.</p>
+              </div>
+            </div>
+            <div class="card">
+              <span class="title">Call pickup</span>
+              <div class="info">
+                <p>Enables users to remotely pickup calls that are ringing extensions in associated call groups.</p>
+              </div>
+            </div>
+            <div class="card">
+              <span class="title">Do Not Disturb</span>
+              <div class="info">
+                <p>Do Not Disturb (DND) service can block and temporarily (or permanently) redirect all incoming calls to a set of destination.</p>
+              </div>
+            </div>
+            <div class="card">
+              <span class="title">IVR</span>
+              <div class="info">
+                <p>Setting IVR (Interactive Voice Response) as a DID destination will enable callers to choose one of multiple available routes.</p>
+              </div>
+            </div>
+            <div class="card">
+              <span class="title">Fax2EMail</span>
+              <div class="info">
+                <p>Incoming faxes that arrive into PBXware will be received and then forwarded to the predefined email associated to the phone number. PBXware will attach the fax as an attachment in TIFF and/or PDF file formats. They can also be displayed inside gloCOM (as long as you have the proper edition)</p>
+              </div>
+            </div>
+            <div class="card">
+              <span class="title">Music on hold</span>
+              <div class="info">
+                <p>Origen has partnered up with Easy On Hold to offer royalty free, customisable and scheduled music and on-streaming hold messaging (similar to a radio station). Once subscribed to Easey On Hold, simply paste the URL of the stream and callers can listen to this while on hold.<br/> Alternatively you can upload your own sound files into PBXware with our sound convertor and have the system play them when callers are placed on hold.</p>
+              </div>
+            </div>
+            <div class="card">
+              <span class="title">Intercom</span>
+              <div class="info">
+                <p>Intercom is a feature which is used in a situation when you want to announce a message to all the other users on the system via their speakerphone. The main upside of such feature is that everyone on the system will hear your message, if they are near a phone.</p>
+              </div>
+            </div>
+            <div class="card">
+              <span class="title">Door open</span>
+              <div class="info">
+                <p>Use Key Systems to control door opening functionality. It is very useful feature for small companies without a dedicated front desk.</p>
+              </div>
+            </div>
+            <div class="card">
+              <span class="title">API</span>
+              <div class="info">
+                <p>Origen's integration with our desktop app and backend allow for various custom workflows for your business.</p>
+              </div>
+            </div>            
+            <div class="card">
+              <span class="title">Operation times</span>
+              <div class="info">
+                <p>Your business is spanned across multiple branches, locations, time zones? Your call flow can be fully automated to switch destinations based on operation times you choose.</p>
+              </div>
+            </div>
+            <div class="card">
+              <span class="title">Dynamic voice conferences</span>
+              <div class="info">
+                <p>Drag &amp; drop contacts to invite them into a conference, mute participants, remove participants out of the conference, or use gloCOM dynamic conference rooms for on the fly quick meetings.</p>
+              </div>
+            </div>            
+            <div class="card">
+              <span class="title">System dashboard</span>
+              <div class="info">
+                <p>Dashboard section gives you an overview of vital PBX information. It displays hardware usage, main services status, information on the system as well as the number of total calls, answered calls, SIP registration etc.</p>
+              </div>
+            </div>
+            <div class="card">
+              <span class="title">Agent wrap-up time</span>
+              <div class="info">
+                <p>Wrap-up time is a small time period in which agents will not receive the next call after they hang up. For example, if an agent finished the call you can assign a wrap-up time of 10 seconds to allow the agent to recover before a new call is forwarded to that agent</p>
+              </div>
+            </div>              
+            <div class="card">
+              <span class="title">Switch phone</span>
+              <div class="info">
+                <p>During a live call, you can use the Switch Phone feature to have all registered devices ring with the call in question to allow the user to continue on another device without needing to call again. A perfect example would be switching from your desk phone to your mobile extension as you need to leave your office and would like to continue your call.</p>
+              </div>
+            </div>
+            <div class="card">
+              <span class="title">Queues</span>
+              <div class="info">
+                <p>If there is someone to answer a call, never send a call straight to voicemail or give a busy tone, ever again. Our queues are fully and easily configurable with different ring strategies, music on hold or ringing, advertising and/or position announcements, call back requests or leave a message, etc. Adjust your agents availability with great statistics on average wait time, completed and dropped calls.</p>
+              </div>
+            </div>            
+            <div class="card">
+              <span class="title">Show status of users</span>
+              <div class="info">
+                <p>Enables users to see the current status of available users assigned to the BLF buttons.</p>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="callcenter black hidden">
+            <div class="standard_features_included">All Standard Features</div>
+            <div class="standard_features_plus">+</div>
+            <div class="card">
+              <span class="title">Pause Reason Codes</span>
+              <div class="info">
+                <p>When an agent needs to stop receiving queue calls, but does not want to log out, they are able to use pause and stop receiving queue calls until they use un-pause option. Under these conditions they will still be reported as logged in to the queue(s). Now agents can provide a pause reason code to indicate the reason they qare currently pause. This reason code is logged in whit their pause event.</p>
+              </div>
+            </div>
+            <div class="card">
+              <span class="title">Agents: callback &amp; dynamic</span>
+              <div class="info">
+                <p>These type of queue members can login to a designated queue from any UAD on the network with an access code. Agents need to provide an AGENT NUMBER and AGENT PIN in order to log in. The dynamic agent line is always opened and he is listening Music on Hold when not serving customer calls.</p>
+              </div>
+            </div>
+            <div class="card">
+              <span class="title">Role base administration</span>
+              <div class="info">
+                <p>Create administration users and groups with access rights to the specific parts of the system. Power users: Administrator - ahs a complete access to all aprts of the system; Site Admin - has unrestricted acces to only one site/location.</p>
+              </div>
+            </div>
+            <div class="card">
+              <span class="title">CDR statistics</span>
+              <div class="info">
+                <p>Users have access to the detailed CDR statistics on the system. Statistics can be used to generate detailed information on the number of calls made during day or an hour. It can also be shown on an extesion basis, meaning that when you enter all the desired search information, you will get a list with the number of calls per extension on the system.</p>
+              </div>
+            </div>
+            <div class="card">
+              <span class="title">Call monitor</span>
+              <div class="info">
+                <p>This service allows monitoring active calls in real time. It can operate in a few different modes:
+                </p>
+                <ul>
+                  <li>Listening - user can only listen to the calls</li>
+                  <li>Whispering - user can listen ot hte conversation and talk only to the monitored extension</li>
+                  <li>Barging - user can listen and talk to borth parties on call</li>
+                  <li>All (Dynamic mode) - dynamically choose what mode of monitoring you want to use by pressing a key.</li>
+                </ul>      
+              </div>            
+            </div>
+            <div class="card">
+              <span class="title">Supervisor panel</span>
+              <div class="info">
+                <p>Real-time agent monitoring and statistics. See graphs in real time. Check the performance of agents in real time. Configurable threshold for different kinds of alerts (service level, paused agents etc.) Seet which agents are logged in, paused and which caller each agent is talking to and much more.</p>
+              </div>
+            </div>
+            <div class="card">
+              <span class="title">Hot Desking</span>
+              <div class="info">
+                <p>Hot Desking is a feature that allows employees to work at any available desk in the office and still be able to have their own extension. If a phone is setup to be used with hot desking any user can log in to their own extension by entering the extension number and PIN.</p>
+              </div>
+            </div>
+            <div class="card">
+              <span class="title">Scheduled reports</span>
+              <div class="info">
+                <p>Schedule queue reports allow you to automatically run and email queue reports data based on your prefereed interval: daily, weekly, monthly etc.</p>
+              </div>
+            </div>
+            <div class="more_features">And many more features... What exactly are you looking for ?<br/><a href="/contact" class="button yellow">Contact us</a></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section class="gray">
+      <div class="headline">
+        <h2>Complete and Seamless Integration with your CRM</h2>
+      </div>
+
+
+      <div class="icons_list faded narrow">
+        <img src="/origen_theme/static/src/img/brands/salesforce_black.png" alt=""/>
+        <img src="/origen_theme/static/src/img/brands/msdynamics_black.png" alt=""/>
+        <img src="/origen_theme/static/src/img/brands/zendesk_black.png" alt=""/>
+        <img src="/origen_theme/static/src/img/brands/outlook_black.png" alt=""/>
+        <img src="/origen_theme/static/src/img/brands/sugarcrm_black.png" alt=""/>
+        <img src="/origen_theme/static/src/img/brands/vtiger_black.png" alt=""/>
+        <img src="/origen_theme/static/src/img/brands/bullhorn_black.png" alt=""/>
+        <img src="/origen_theme/static/src/img/brands/zoho_black.png" alt=""/>
+      </div>          
+    </section>
+
+
+  </template>
+
+
+
+<data noupdate="1">
+
+
+
+
+    <record id="voip" model="website.page">
+     <field name="name">Hosted VoIP PBX</field>
+     <field name="website_published">True</field>
+     <field name="url">/services/voip</field>
+     <field name="type">qweb</field>
+     <field name="key">origen_theme.voip</field>
+     <field name="arch" type="xml">
+      <t t-name="origen_theme.voip_page">
+        <t t-call="origen_theme.layout">
+          <div id="wrap">
+            <div class="oe_structure"></div>
+          </div>
+
+        </t>
+      </t>
+    </field>
+  </record>
+
+
+</data>
+
+</odoo>

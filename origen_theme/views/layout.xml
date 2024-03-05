@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+	<template id="origen_theme.layout">
+		<t t-set="html_data" t-value="{'lang': lang and lang.replace('_', '-'), 'data-website-id': website.id if website else None, 'data-editable': '1' if editable else None, 'data-translatable': '1' if translatable else None, 'data-edit_translations': '1' if edit_translations else None, 'data-view-xmlid': xmlid if editable or translatable else None, 'data-main-object': repr(main_object) if editable or translatable else None, 'data-oe-company-name': res_company.name}"/>
+		&lt;!DOCTYPE html&gt;
+		<html t-att="html_data or {}">
+			<head>
+				<meta charset="utf-8"/>
+				<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+				<meta name="viewport" content="width=device-width, initial-scale=1,minimum-scale=1"/>
+
+
+
+				<t t-set="body_classname" t-value="'o_connected_user' if env['ir.ui.view'].user_has_groups('base.group_user') else None"/>
+				<t t-if="not title">
+					<t t-if="not additional_title and main_object and 'name' in main_object">
+						<t t-set="additional_title" t-value="main_object.name"/>
+					</t>
+					<t t-if="main_object and 'website_meta_title' in main_object and main_object.website_meta_title">
+						<t t-set="title" t-value="main_object.website_meta_title"/>
+					</t>
+					<t t-else="">
+						<t t-set="title"><t t-if="additional_title"><t t-raw="additional_title"/> | </t><t t-raw="(website or res_company).name"/></t>
+					</t>
+				</t>
+				
+				<title t-esc="title or 'Origen'"/>
+
+				<t t-set="x_icon" t-value="'/web/image/website/%s/favicon/' % website.id"/>
+				<link type="image/x-icon" rel="shortcut icon" t-att-href="x_icon or '/web/static/src/img/favicon.ico'"/>
+
+				<script type="text/javascript">
+					var odoo = {
+					csrf_token: "<t t-esc="request.csrf_token(None)"/>",
+					};
+				</script>
+
+				<meta t-if="main_object and 'website_indexed' in main_object and not main_object.website_indexed" name="robots" content="noindex"/>
+				<t t-set="meta_description" t-value="main_object and 'website_meta_description' in main_object and main_object.website_meta_description or website_meta_description"/>
+				<t t-set="meta_keywords" t-value="main_object and 'website_meta_keywords' in main_object and main_object.website_meta_keywords or website_meta_keywords"/>
+				<meta t-if="meta_description or editable" name="description" t-att-content="meta_description"/>
+				<meta t-if="meta_keywords or editable" name="keywords" t-att-content="meta_keywords"/>
+
+				<!-- OpenGraph tags for Facebook sharing -->
+				<meta property="og:title" t-att-content="additional_title"/>
+				<meta property="og:site_name" t-att-content="res_company.name"/>
+				<t t-if="main_object and 'plain_content' in main_object and main_object.plain_content">
+					<t t-set="og_description" t-value="main_object.plain_content[0:500]"/>
+					<meta property="og:description" t-att-content="og_description"/>
+					<meta property="og:image" t-att-content="request.httprequest.url_root+'logo.png'"/>
+					<meta property="og:url" t-att-content="request.httprequest.url_root+request.httprequest.path[1:end]"/>
+				</t>
+
+
+        <t t-call-assets="web.assets_common" t-js="false"/>
+        <t t-call-assets="web.assets_frontend" t-js="false"/>
+        <t t-call-assets="website.assets_editor" t-js="false" groups="website.group_website_publisher"/>
+
+
+				<script type="text/javascript">
+					<t groups="website.group_website_publisher">
+						odoo.snippetsURL = '/website/snippets';
+					</t>
+
+					odoo.session_info = {
+					is_superuser: <t t-esc="json.dumps(request.env.user._is_superuser())"/>,
+					is_system: <t t-esc="json.dumps(request.env.user._is_system())"/>,
+					is_frontend: true,
+					translationURL: '/website/translations',
+					is_website_user: <t t-esc="json.dumps(request.env.user.id == request.website.user_id.id)"/>,
+					user_id: <t t-esc="json.dumps(request.env.user.id)"/>
+					};
+				</script>
+
+
+
+
+        <script type="text/javascript">
+            odoo.session_info = <t t-raw="json.dumps(request.env['ir.http'].get_frontend_session_info())"/>;
+        </script>
+        <t t-call-assets="web.assets_common_minimal_js" t-css="false" defer_load="True"/>
+        <t t-call-assets="web.assets_frontend_minimal_js" t-css="false" defer_load="True"/>
+        <t t-call="web.conditional_assets_tests"/>
+        <t t-call-assets="web.assets_common_lazy" t-css="false" lazy_load="True"/>
+        <t t-call-assets="web.assets_frontend_lazy" t-css="false" lazy_load="True"/>
+        <t t-call-assets="website.assets_editor" t-css="false" groups="website.group_website_publisher" lazy_load="True"/>
+
+
+			</head>
+			<body t-att-class="body_classname">
+			<div id="wrapwrap">
+
+
+				<t t-call="origen_theme.header" t-lang="en_US"/>
+
+
+
+				<main id="wrap">
+					<t t-raw="0"/>
+				</main>
+
+
+
+				<!-- <t t-call="origen_theme.template_footer_about"/>
+				<t t-call="origen_theme.footer"/> -->
+
+        <script id="tracking_code" t-if="website and website.google_analytics_key and not editable">
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', _.str.trim('<t t-esc="website.google_analytics_key"/>'), 'auto');
+            ga('send','pageview');
+        </script>
+			</div>
+			</body>
+		</html>	
+	</template>
+
+
+
+	<!-- <record id="origen_theme.replace_layout" model="ir.ui.view">
+		<field name="name">origen_theme.replace_layout_template</field>
+		<field name="inherit_id" ref="website.layout"/>
+		<field name="priority">20</field>
+		<field name="arch" type="xml">
+			<xpath expr="//html" position="replace">
+				<t t-call="origen_theme.layout">
+				    <section id="landing" class="blue title_only"></section>
+					<t t-raw="0"/>
+				</t>
+			</xpath>
+		</field>
+	</record> -->
+
+
+</odoo>

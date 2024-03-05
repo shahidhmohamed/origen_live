@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<template id="origen_theme.partners_page_template" name="Partners Page Template">
+    <style>
+        .partners{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            max-width: 900px;
+            margin: 16px auto 42px;
+            justify-content: space-around;
+        }
+        .partners a{
+            flex-basis: 23%;
+            padding: 12px 28px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            margin: 12px 0px;
+            border: 2px solid #DFDFDF;
+            border-radius: 7px;
+            min-height: 140px;
+            min-width: 170px;
+        }
+        section h1{
+            font-size:40px;
+        }
+        section h2{
+            margin:0px auto;
+        }
+        .partners a img {
+            max-width: 100%;
+            width: auto;
+            max-height: 110px;
+        }
+        .partners a span {
+            font-size: 1.5em;
+            color: black;
+            margin-top: 8px;
+            position: absolute;
+            bottom: 0px;
+            display: none;
+        }
+    </style>
+    <div id="wrap" class="oe_structure oe_empty">
+      <section class="s_title">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h1 class="text-center">Our Partners</h1>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="s_title">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h2 class="text-center">IP Telephony</h2>
+            </div>
+          </div>
+          <div class="partners">
+            <a>
+              <img src="/web/image/65655/3cx-logo-5-2-600x480.png"/>
+              <span>3CX</span>
+            </a>
+            <a>
+              <img src="/web/image/65659/bicom-logo.png"/>
+              <span>BICOM</span>
+            </a>
+            <a>
+              <img src="/web/image/65677/gxp2135psu-psu-logo.png"/>
+              <span>GRANDSTREAM</span>
+            </a>
+            <a>
+              <img src="/web/image/65678/jabra.png"/>
+              <span>JABRA</span>
+            </a>
+            <a>
+              <img src="/web/image/65679/mitel.png"/>
+              <span>Mitel</span>
+            </a>
+            <a>
+              <img src="/web/image/65680/polycom-logo.png"/>
+              <span>Polycom</span>
+            </a>
+            <a>
+              <img src="/web/image/65681/sennheiser.png"/>
+              <span>SENNHEISER</span>
+            </a>
+            <a>
+              <img src="/web/image/65683/yealink.png"/>
+              <span>Yealink</span>
+            </a>
+          </div>
+        </div>
+      </section>
+      <section class="s_title">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h2 class="text-center">Infrastructure, Data Storage</h2>
+            </div>
+          </div>
+          <div class="partners">
+            <a>
+              <img src="/web/image/65843/axiom-header.png"/>
+              <span>AXIOM</span>
+            </a>
+            <a>
+              <img src="/web/image/65658/73bd6f471e12d484216dc1f0053bf261ab14a9f2.png"/>
+              <span>BARRACUDA</span>
+            </a>
+            <a>
+              <img src="/web/image/65659/bicom-logo.png"/>
+              <span>BICOM</span>
+            </a>
+            <a>
+              <img src="/web/image/65660/logo-brocade-black-red-rgb.jpg"/>
+              <span>BROCADE</span>
+            </a>
+            <a>
+              <img src="/web/image/65664/1554799812724.png"/>
+              <span>CISCO</span>
+            </a>
+            <a>
+              <img src="/web/image/65665/Cogentlogo.png"/>
+              <span>COGENT</span>
+            </a>
+            <a>
+              <img src="/web/image/65666/ls.jpg"/>
+              <span>COMMVAULT</span>
+            </a>
+            <a>
+              <img src="/web/image/65653/ddn.jpg"/>
+              <span>DDN</span>
+            </a>
+            <a>
+              <img src="/web/image/65881/lenovo.png"/>
+              <span>Lenovo</span>
+            </a>
+            <a>
+              <img src="/web/image/65667/dell.png"/>
+              <span>DELL</span>
+            </a>
+            <a>
+              <img src="/web/image/65668/Dell_EMC_logo.svg.png"/>
+              <span>DELL EMC</span>
+            </a>
+            <a>
+              <img src="/web/image/65684/HP-Logo.png"/>
+              <span>HP</span>
+            </a>
+            <a>
+              <img src="/web/image/65671/hpe_black.png"/>
+              <span>HPE</span>
+            </a>
+            <a>
+              <img src="/web/image/65669/ibm.png"/>
+              <span>IBM</span>
+            </a>
+            <a>
+              <img src="/web/image/65672/juniper.png"/>
+              <span>JUNIPER</span>
+            </a>
+            <a>
+              <img src="/web/image/65685/kingston.png"/>
+              <span>KINGSTON</span>
+            </a>
+            <a>
+              <img src="/web/image/65844/cisco-meraki-logo.png"/>
+              <span>MERAKI</span>
+            </a>
+            <a>
+              <img src="/web/image/65686/microsoft.png"/>
+              <span>MICROSOFT</span>
+            </a>
+            <a>
+              <img src="/web/image/65717/netgate-logo.png" data-original-title="" title=""/>
+              <span>NETGATE</span>
+            </a>
+            <a>
+              <img src="/web/image/65689/nvidia.png"/>
+              <span>NVIDIA</span>
+            </a>
+            <a>
+              <img src="/web/image/65706/paessler-logo.png" data-original-title="" title=""/>
+              <span>PAESSLER</span>
+            </a>
+            <a>
+              <img src="/web/image/65690/qumulo.png"/>
+              <span>QUMULO</span>
+            </a>
+            <a>
+              <img src="/web/image/65704/rapid7.png" data-original-title="" title=""/>
+              <span>RAPID 7</span>
+            </a>
+            <a>
+              <img src="/web/image/65847/red-points-logo-red-1.png" data-original-title="" title=""/>
+              <span>REDPOINT</span>
+            </a>
+            <a>
+              <img src="/web/image/65705/secureworks.png"/>
+              <span>SECUREWORKS</span>
+            </a>
+            <a>
+              <img src="/web/image/65845/PfSense_logo.png"/>
+              <span>PFSENSE</span>
+            </a>
+            <a>
+              <img src="/web/image/65707/SonicWall_logo.png"/>
+              <span>SONICWALL</span>
+            </a>
+            <a>
+              <img src="/web/image/65708/SOPHOS-LOGO.png"/>
+              <span>SOPHOS</span>
+            </a>
+            <a>
+              <img src="/web/image/65710/supermicro.png"/>
+              <span>SUPERMICRO</span>
+            </a>
+            <a>
+              <img src="/web/image/65709/tintri.png"/>
+              <span>TINTRI</span>
+            </a>
+            <a>
+              <img src="/web/image/65711/Unitrends-logo.png"/>
+              <span>UNITRENDS</span>
+            </a>
+            <a>
+              <img src="/web/image/65713/veaam-logo.png"/>
+              <span>VEEAM</span>
+            </a>
+            <a>
+              <img src="/web/image/65714/vmware.png"/>
+              <span>VMWARE</span>
+            </a>
+            <a>
+              <img src="/web/image/65715/mellanox.png"/>
+              <span>MELLANOX</span>
+            </a>
+            <a>
+              <img src="/web/image/65846/Zebra_tech_logo15.png"/>
+              <span>ZEBRA</span>
+            </a>
+          </div>
+        </div>
+      </section>
+    </div>
+  </t>
+</t>
+</template>
+
+
+</odoo>

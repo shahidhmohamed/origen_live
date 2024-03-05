@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- <record id="origen_theme.backend_assets" model="ir.ui.view">
+        <field name="name">Backend Assets</field>
+        <field name="inherit_id" ref="web.assets_backend"/>
+        <field name="priority">100</field>
+        <field name="arch" type="xml">
+            <xpath expr="//link[last()]" position="after">
+                <link href="/origen_theme/static/src/less/styles_backend.less" rel="stylesheet" type="text/less"/>
+            </xpath>
+
+            <xpath expr="//script[last()]" position="after">
+                <script type="text/javascript" src="/origen_theme/static/src/js/inherited_web_client.js" />
+            </xpath>
+
+        </field>
+    </record> -->
+
+    <record id="origen_theme.backend_layout" model="ir.ui.view">
+        <field name="name">Backend Layout</field>
+        <field name="inherit_id" ref="web.layout"/>
+        <field name="priority">100</field>
+        <field name="arch" type="xml">
+            <xpath expr="//title" position="replace">
+                <title t-esc="title or 'Origen'"/>
+            </xpath>
+
+            <xpath expr="//link[@type='image/x-icon']" position="replace">
+                <link type="image/x-icon" rel="shortcut icon" href="/origen_theme/static/src/img/favicon.ico"/>
+            </xpath>
+
+        </field>
+    </record>
+</odoo>

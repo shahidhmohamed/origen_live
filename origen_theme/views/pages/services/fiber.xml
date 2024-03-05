@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+<template id="origen_theme.fiber_page_template" name="Fiber Page Template">
+
+        <section id="landing" class="black">
+          <div class="wrapper">
+            <div>
+              <div class="title">
+                <h1>Dedicated Fiber <span class="autoline full">Internet</span></h1>
+              </div>
+              <p>Origen offers a high availability and dedicated Fiber Internet Connection for mid to large enterprises delivered via fiber optic. Connection are backed by high quality bandwidth and exceptional customer service.</p>
+              <a href="/contact#contact_form" class="button yellow">Get an estimate</a>
+            </div>
+            <div><img src="/origen_theme/static/src/img/services/fiber/router.png" alt=""/></div>
+          </div>
+        </section>
+
+
+
+        <section class="white">
+          <div class="headline">
+            <h2>Why does transit matter</h2>
+          </div>
+
+          <ul class="bullet_list">
+            <li class="bullet_point">
+              <span class="yellow">Reach any network in just a few milliseconds</span>
+              <p>With multiple high quality upstream providers specializing in specific regions, Origen gives you a direct Fiber Internet connection to any part of the world.</p>
+            </li>
+            <li class="bullet_point">
+              <span class="yellow">No packet loss</span>
+              <p>Because Origen has direct upstream to target geographical locations and ample bandwidth, the likelihood where in the world is minimal.</p>
+            </li>
+            <li class="bullet_point">
+              <span class="yellow">Extreme redundancy</span>
+              <p>Whereas most fiber internet providers only have one upstream, Origen has a whole portfolio. Many of these upstreams would have to go down before our customers even notice a slowdown, let alone go down.</p>
+            </li>
+            <li class="bullet_point">
+              <span class="yellow">No oversubscribing</span>
+              <p>Most fiber internet service provider saturate their upstream by oversubscribing the amount of customers in relation to their total capacity. Origen has almost a 1 to 1 ration keeping bandwidth available.</p>
+            </li>
+          </ul>
+        </section>
+
+        <section class="black">
+          <div class="headline">
+            <h2 class="autoline">We really don't want to brag but...</h2>
+          </div>
+          <div class="block_stack">
+            <div class="third icon chosen_one">
+              <div class="wrapper">
+                <img src="/origen_theme/static/src/img/icons/multi_homed.svg" alt=""/>
+                <div>
+                  <h4>Multi-Homed BGP Network</h4>
+                  <p>Our Multi-Transit BGP Fiber network allows many benefits: strong redundancy, the shortest path to any destination and high bandwidth availability.</p>
+                </div>
+              </div>
+            </div>
+            <div class="third icon">
+              <div class="wrapper">
+                <img src="/origen_theme/static/src/img/icons/cisco.svg" alt=""/>
+                <div>
+                  <h4>Cisco Backbone</h4>
+                  <p>Our core network is run on Cisco Carrier grade equipment. It is know in the industry for its reliability and redundancy.</p>
+                </div>
+              </div>
+            </div>
+            <div class="third icon">
+              <div class="wrapper">
+                <img src="/origen_theme/static/src/img/icons/uptime.svg" alt=""/>
+                <div>
+                  <h4>Years of Uptime Reported by Pingdom</h4>
+                  <p>Pingdom is an external unbiased entity that monitors and calculates network uptime. This far, Origen has registered many years of uptime with Pingdom.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="full cta">
+              <span>Need help with your dedicated Internet?</span>
+              <span>Our technicians will be happy to guide you through</span>
+              <a href="/contact#contact_form" class="button light">Get an estimate</a>
+            </div>
+
+            <div class="third icon">
+              <div class="wrapper">
+               <img src="/origen_theme/static/src/img/icons/layer2.svg" alt=""/>
+               <div>
+                <h4>Layer 2 Without Limits</h4>
+                <p>Origen offers point to point layer 2 link with Q in Q support. This allows freedom of Vlan transparency allowing your organization to pass Vlan tags across branch locations.</p>
+              </div>
+            </div>                            
+          </div>
+          <div class="third icon">
+            <div class="wrapper">
+             <img src="/origen_theme/static/src/img/icons/dreamteam.svg" alt=""/>
+             <div>
+              <h4>Dream Team On Staff</h4>
+              <p>Composed of industry experts, our core team is all Cisco certified with other major brands certifications in their name. This also includes CCIE's the top of the food chain.</p>
+            </div>
+          </div>                            
+        </div>
+        <div class="third icon chosen_one">
+          <div class="wrapper">
+           <img src="/origen_theme/static/src/img/icons/ipv6.svg" alt=""/>
+           <div>
+            <h4>IPv6 Ready For the Future</h4>
+            <p>Origen's network is ready to fully supports IPv6. We are ready for the future, and you.</p>
+          </div>
+        </div>
+      </div>
+    </div>     
+
+  </section>
+
+  <section class="white">
+    <div class="headline">
+      <h2>Our Solutions</h2>
+    </div>
+
+    <ul class="bullet_list">
+      <li class="bullet_point">
+        <span class="yellow">Dedicated Fiber Internet Connection</span>
+        <p>Origen offers high availability dedicated Fiber Internet Connections for mid to large enterprise delivered via fiber optic. Connections are backed by high quality bandwidth and exceptional customer, service.</p>
+        <a href="" class="autoline">Get a quote</a>
+      </li>
+      <li class="bullet_point">
+        <span class="yellow">Point To Point Connection and Multipoint Connectivity</span>
+        <p>Unlike traditional layer 2 connectivity with Origen customers can run without any limitations. Q and Q supports allows companies to run their own VLANS ab.</p>
+        <a href="" class="autoline">Get a quote</a>
+      </li>
+      <li class="bullet_point">
+        <span class="yellow">Volume Internet</span>
+        <p>Multi-branch and Franchise customers can take advantage of Origen's volume pricing. For large customers, custom routing, application limitations and QoS policies are possible directly on the internet connections itself.</p>
+        <a href="" class="autoline">Get a quote</a>
+      </li>
+      <li class="bullet_point">
+        <span class="yellow">IP Data Deployment Consulting</span>
+        <p>It's not always easy to harmonize LAN and WAN. Origen offers integration consulting with Cisco certified design associates on staff. From giving you equipment selection advice and best practices to complete infrastructure design.</p>
+        <a href="" class="autoline">Get a quote</a>
+      </li>
+    </ul>
+  </section>
+
+
+  <section class="brands black">
+    <div class="headline">
+      <h2 class="autoline">Working with the best to provide the best</h2>
+    </div>
+
+    <div class="icons_list">
+      <img src="/origen_theme/static/src/img/brands/cisco_white.png" alt=""/>
+      <img src="/origen_theme/static/src/img/brands/cogent_white.png" alt=""/>
+      <img src="/origen_theme/static/src/img/brands/dell_white.png" alt=""/>
+      <img src="/origen_theme/static/src/img/brands/gtt.png" alt=""/>
+      <img src="/origen_theme/static/src/img/brands/level3.png" alt=""/>
+      <img src="/origen_theme/static/src/img/brands/mitel_white.png" alt=""/>
+      <img src="/origen_theme/static/src/img/brands/netgear.png" alt=""/>
+      <img src="/origen_theme/static/src/img/brands/tata.png" alt=""/>
+      <img src="/origen_theme/static/src/img/brands/juniper_white.png" alt=""/>
+    </div>
+  </section>
+
+  <section class="white no_side_padding">
+    <div class="headline">
+      <h2>Serving you Worldwide</h2>
+    </div>
+
+    <div class="sawed_grid_table faded">
+
+      <div class="grid_row header">
+        <div class="fourth">
+          <img src="/origen_theme/static/src/img/brands/cogent_black.png" alt=""/>
+        </div>
+        <div class="fourth">
+          <img src="/origen_theme/static/src/img/brands/tata_black.png" alt=""/>
+        </div>
+        <div class="fourth">
+          <img src="/origen_theme/static/src/img/brands/level3_black.png" alt=""/>
+        </div>
+        <div class="fourth">
+          <img src="/origen_theme/static/src/img/brands/gtt_black.png" alt=""/>
+        </div>
+      </div>
+      <div class="full">
+        <span>Primary Routing</span>
+      </div>
+
+      <div class="grid_row">
+        <div class="fourth">
+          <ul>
+            <li>North America</li>
+            <li>Europe</li>
+          </ul>
+        </div>
+        <div class="fourth">
+          <ul>
+            <li>North America</li>
+            <li>Europe</li>
+            <li>South America</li>
+            <li>Caribbean</li>
+          </ul>
+        </div>
+        <div class="fourth">
+          <ul>
+            <li>North America</li>
+            <li>Europe</li>
+          </ul>
+        </div>
+        <div class="fourth">
+          <ul>
+            <li>Asia</li>
+            <li>Middle East</li>
+            <li>Africa</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="full">
+        <span>Redundant Routing</span>
+      </div>
+
+      <div class="grid_row">
+        <div class="fourth">
+          <ul>
+            <li>Asia</li>
+            <li>Middle East</li>
+            <li>Africa</li>
+            <li>Caribbean</li>
+            <li>South America</li>
+            <li>Australia</li>
+          </ul>
+        </div>
+        <div class="fourth">
+          <ul>
+            <li>North America</li>
+            <li>Europe</li>
+            <li>Caribbeanpe</li>
+            <li>South America</li>
+            <li>Australia</li>
+          </ul>
+        </div>
+        <div class="fourth">
+          <ul>
+            <li>Asia</li>
+            <li>Middle East</li>
+            <li>Africa</li>
+            <li>Australia</li>
+          </ul>
+        </div>
+        <div class="fourth">
+          <ul>
+            <li>Asia</li>
+            <li>Middle East</li>
+            <li>Africa</li>
+            <li>Australia</li>
+            <li>South America</li>
+            <li>Caribbean</li>
+          </ul>
+        </div>
+      </div> 
+
+      <div class="full">
+        <span>Highlights</span>
+      </div>
+
+      <div class="grid_row">
+        <div class="fourth">
+          <ul>
+            <li>Presence in 38 countries</li>
+            <li>92,500 km of long-haul fiber</li>
+            <li>44,000 km of metropolitan fiber</li>
+          </ul>
+        </div>
+        <div class="fourth">
+          <ul>
+            <li>Presence in 200+ countries</li>
+            <li>World’s largest submarine cable network</li>
+            <li>210,000 km of subsea cable</li>
+          </ul>
+        </div>
+        <div class="fourth">
+          <ul>
+            <li>Tier 1 backbone serving over</li>
+            <li>500 global markets</li>
+            <li>2nd largest fiber network in the USA</li>
+          </ul>
+        </div>
+        <div class="fourth">
+          <ul>
+            <li>Presence in 24 countries</li>
+            <li>200+ Points-of-Presence (PoPs)</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="full">
+        <span>Peering</span>
+      </div>
+
+      <div class="grid_row">
+        <div class="fourth has_small_logo">
+          <img src="/origen_theme/static/src/img/brands/torix_black.png" alt="Torix Logo"/>
+          <ul>
+            <li>Toronto Internet Exchange (Torix)</li>
+            <li>180 Canadian and International Peers</li>
+          </ul>
+        </div>
+        <div class="fourth has_small_logo">
+          <img src="/origen_theme/static/src/img/brands/nyiix_black.png" alt="NYIIX logo"/>
+          <ul>
+            <li>New York International Internet Exchange (NYIIX)</li>
+            <li>140 American and International Peers</li>
+          </ul>
+        </div>
+        <div class="fourth"></div>
+        <div class="fourth"></div>
+      </div>       
+
+      <div class="full for_small_height">
+        <span></span>
+      </div>
+      <div class="grid_row header for_small_height">
+        <div class="fourth">
+          <img src="/origen_theme/static/src/img/brands/cogent_black.png" alt=""/>
+        </div>
+        <div class="fourth">
+          <img src="/origen_theme/static/src/img/brands/tata_black.png" alt=""/>
+        </div>
+        <div class="fourth">
+          <img src="/origen_theme/static/src/img/brands/level3_black.png" alt=""/>
+        </div>
+        <div class="fourth">
+          <img src="/origen_theme/static/src/img/brands/gtt_black.png" alt=""/>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+</template>
+
+
+  <data noupdate="1">
+
+
+
+ <record id="fiber" model="website.page">
+   <field name="name">Dedicated Fiber Internet</field>
+   <field name="website_published">True</field>
+   <field name="url">/services/fiber</field>
+   <field name="type">qweb</field>
+   <field name="key">origen_theme.fiber</field>
+     <field name="arch" type="xml">
+      <t t-name="origen_theme.fiber_page">
+        <t t-call="origen_theme.layout">
+          <div id="wrap">
+            <div class="oe_structure"></div>
+          </div>
+
+        </t>
+      </t>
+    </field>
+  </record>
+
+
+</data>
+
+
+</odoo>

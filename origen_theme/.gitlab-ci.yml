@@ -1,0 +1,42 @@
+# This file is a template, and might need editing before it works on your project.
+# Official framework image. Look for the different tagged releases at:
+# https://hub.docker.com/r/library/node/tags/
+image: node:latest
+
+# Pick zero or more services to be used on all builds.
+# Only needed when using a docker container to run your tests in.
+# Check out: http://docs.gitlab.com/ce/ci/docker/using_docker_images.html#what-is-a-service
+
+# This folder is cached between builds
+# http://docs.gitlab.com/ce/ci/yaml/README.html#cache
+cache:
+  paths:
+  - node_modules/
+
+
+compile_less:
+  only:
+    - alpha-release-test
+  before_script:
+    - git remote set-url origin https://${CI_PUSH_USER}:${CI_PUSH_TOKEN}@gitlab.com/${CI_PROJECT_PATH}.git
+    - git config --global user.email 'ilyas.f@origen.ca'
+    - git config --global user.name 'gitlabci'  
+    - git pull origin alpha-release-test
+    - npm install less -g
+    - mkdir -p ../css    
+  script:
+   - for file in ./static/src/less/*.less; do lessc $file ../css/`basename -s .less $file`.css ; done
+   - git pull origin alpha-release-12
+   - git checkout -B alpha-release-12  
+   - mkdir -p ./static/src/css/
+   - cp ../css/* ./static/src/css/
+   - ls -la ./static/src/css/
+   - git add ./static/src/css/*
+   - cat ../css/styles_backend.css
+   - cat ./static/src/css/styles_backend.css
+   - git status
+   - git commit -m '[skip ci] compile less'
+   - git push origin alpha-release-12
+   - git diff --exit-code
+
+

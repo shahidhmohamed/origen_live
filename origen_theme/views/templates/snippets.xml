@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+
+<template id="snippet_clients" name="Clients">
+  <section class="snippet_clients client-section client-section-2 bg-gray animated fadeIn full-visible" data-animate-in="fadeIn" style="animation-delay: 0s;" rgen-id="rg3VT">
+    <div class="container">
+      <div class="client-logos">
+        <img alt="Brand Logo" src="/theme_origen/static/src/img/logo/2000px-Cisco_logo.svg.png"/>
+        <img alt="Brand Logo" src="/theme_origen/static/src/img/logo/Dell_Logo.png"/>
+        <img alt="Brand Logo" src="/theme_origen/static/src/img/logo/logo-brocade-black-red-rgb.jpg"/>
+        <img alt="Brand Logo" src="/theme_origen/static/src/img/logo/download.png"/>
+        <img alt="Brand Logo" src="/theme_origen/static/src/img/logo/hp-logo.png"/>
+        <img alt="Brand Logo" src="/theme_origen/static/src/img/logo/new-lenovo-logo3.png"/>
+      </div>
+    </div>
+  </section>
+</template>
+
+
+
+</odoo>
+
+
+
+
+
+

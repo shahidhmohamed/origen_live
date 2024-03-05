@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+
+<template id="origen_theme.template_footer_about" name="Footer about">
+  <section class="footer_about">
+    <div class="wrapper">
+      <img src="/origen_theme/static/src/img/logo/white.png" alt="Origen logo"/>
+      <div class="powered_driven">
+        <div>Powered by technology,</div>
+        <div>Driven by <span>knowledge.</span></div>
+      </div>
+    </div>
+    
+    <t t-if="request.httprequest.path == '/about' or request.httprequest.path == '/contact'" >
+      <div class="columns">
+        <div>
+          <span>With us, you don’t get blindly quoted.</span>
+          <p>Technicians are with you every step of the way to make sure you choose the right stuff for the job, at the right price.</p>
+          <a href="/contact#contact_form" class="autoline">Get a free quote</a>
+        </div>
+        <div>
+          <span>We’re always on your side.</span>
+          <p>Origen provides financing for as low as 0%, as well as help you in storage facilities and warehousing.</p>
+          <a href="/about" class="autoline">About us</a>
+        </div>
+        <div>
+          <span>Get the best after-sales service.</span>
+          <p>We keep our customers updated about renewals, upgrades, and promotions. It’s the best after-sales service you can get.</p>
+          <a href="/about" class="autoline">Learn more</a>
+        </div>
+      </div>
+    </t>
+
+
+  </section>
+</template>
+
+
+
+</odoo>
+
+
+
+
+
+

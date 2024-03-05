@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<template id="origen_theme.nav">
+		<nav groups="base.group_user" t-if="website and menu_data" id="oe_main_menu_navbar" class="o_main_navbar">
+			<a href="#" class="fa fa-th o_menu_toggle"/>
+
+			<button type="button" class="fa fa-bars pull-right visible-xs-block o_mobile_menu_toggle"/>
+
+			<div class="o_menu_brand">Website</div>
+			<ul class="o_menu_sections" groups="website.group_website_designer">
+				<!-- Content -->
+				<li t-if="editable" class="dropdown" id="content-menu">
+					<a id="content-menu-button" class="dropdown-toggle waves" data-toggle="dropdown" href="#">Content</a>
+					<ul class="dropdown-menu" role="menu">
+						<li><a data-action="edit_menu" href="#" title="Edit Top Menu">Edit Menu</a></li>
+						<li><a href="/website/pages" title="Manage Your Website Pages">Manage Pages</a></li>
+						<li t-if="deletable" role="separator" class="divider"/>
+						<li t-if="deletable"><a href="#" data-action="page_properties">Page Properties</a></li>
+					</ul>
+				</li>
+				<!-- Version -->
+				<!-- <li class="dropdown" id="version-menu" groups="website.group_website_designer">
+					<a id="version-menu-button" class="dropdown-toggle" data-toggle="dropdown" href="#" t-att-data-version_id="website.get_current_version()[0]" t-att-data-version_name="website.get_current_version()[1]">
+						Version 
+						<span><t t-esc="website.get_current_version()[1]"/></span>
+					</a>
+					<ul class="dropdown-menu version_menu" role="menu">
+						<t t-if="not translatable">
+							<t t-if="website.get_current_version()[0] == 0 ">
+								<li><a href="#" data-action="duplicate_version">New Version</a></li>
+							</t>
+							<t t-if="website.get_current_version()[0] != 0 ">
+								<li><a href="#" data-action="duplicate_version">Duplicate Version</a></li>
+								<li><a href="#" data-action="publish_version">Publish Version</a></li>
+								<li><a href="#" data-action="diff_version" groups="base.group_no_one">List Modified Pages</a></li>
+							</t>
+							<li class="divider o_publish_version"> </li>
+						</t>
+						<li class="dropdown-header" style="text-transform: uppercase;">All versions</li>
+						<t t-if="website.get_current_version()[0] == 0 ">
+							<li><a href="#" data-action="change_version"><b>Master</b></a></li>
+						</t>
+						<t t-if="website.get_current_version()[0] != 0 ">
+							<li><a href="#" data-action="change_version">Master</a></li>
+						</t>
+						<li class="first_divider divider"> </li>
+						<li class="create_experiment"><a href="#" data-action="create_experiment">Launch A/B tests</a></li>
+					</ul>
+				</li>						 -->
+				<!-- Customize -->
+				<li class="dropdown" id="customize-menu">
+					<a class="dropdown-toggle waves" data-toggle="dropdown" href="#">Customize</a>
+					<ul class="dropdown-menu" role="menu">
+						<li id="theme_customize"><a href="#" data-action="customize_theme">Customize Theme</a></li>
+						<li id="html_editor" t-if="not version_id"><a href="#" data-action="ace">HTML/CSS Editor</a></li>
+						<li id="install_apps"><a href="/web#action=website.action_website_configuration">Settings</a></li>
+						<li class="divider"/>
+					</ul>
+				</li>
+				<!-- Promote -->
+				<li class="dropdown" id="promote-menu">
+					<a class="dropdown-toggle waves" data-toggle="dropdown" href="#">Promote</a>
+					<ul class="dropdown-menu oe_promote_menu" role="menu">
+						<li><a data-action="promote-current-page" href="#" title="Promote page on the web">Optimize SEO</a></li>
+					</ul>
+				</li>
+			</ul>
+
+			<ul class="o_menu_systray hidden-xs" groups="website.group_website_publisher">
+				<li t-if="'website_published' in main_object.fields_get()" t-attf-class="js_publish_management #{main_object.website_published and 'css_published' or 'css_unpublished'}" t-att-data-id="main_object.id" t-att-data-object="main_object._name" t-att-data-controller="publish_controller">
+					<a>
+						<label class="o_switch o_switch_danger js_publish_btn" for="id">
+							<input type="checkbox" t-att-checked="main_object.website_published" id="id"/>
+							<span/>
+							<span class="css_publish">Unpublished</span>
+							<span class="css_unpublish">Published</span>
+						</label>
+					</a>
+				</li>
+				<!-- Mobile preview -->
+				<li class="o_mobile_preview" id="mobile-menu">
+					<a data-action="show-mobile-preview" href="#"><span title="Mobile preview" class="fa fa-mobile"/></a>
+				</li>
+				<!-- Page Edition -->
+				<li class="o_new_content_menu" id="new-content-menu">
+					<a href="#"><span class="fa fa-plus"/>New</a>
+					<div id="o_new_content_menu_choices" class="o_hidden">
+						<ul>
+							<li groups="website.group_website_designer"><a href="#" data-action="new_page"><i class="fa fa-file-o"/><p>New Page</p></a></li>
+							<li groups="website.group_website_designer"><a href="#" data-action="new_blog_post"><i class="fa fa-rss"/><p>New Blog Post</p></a></li>
+							<li groups="sales_team.group_sale_manager">
+								<a id="create-new-product" href="#" data-action="new_product">
+									<i class="fa fa-shopping-cart"/>
+									<p>New Product</p>
+								</a>
+							</li>
+							<li groups="base.group_user"><a href="#" data-action="new_team"><i class="fa fa-question"/><p>New Team</p></a></li>
+						</ul>
+					</div>
+				</li>
+				<li t-if="not translatable" id="edit-page-menu">
+					<a data-action="edit" href="#"><span class="fa fa-pencil"/>Edit</a>
+				</li>
+				<t t-if="main_object._name == 'product.template'" t-set="action" t-value="'product.product_template_action'"/>
+				<li t-if="'website_published' in main_object.fields_get() and main_object._name != 'website.page'">
+					<a class="btn btn-primary btn-xs dropdown-toggle css_edit_dynamic" data-toggle="dropdown">
+						<span class="caret"/>
+						<span class="sr-only">Toggle Dropdown</span>
+					</a>
+					<ul class="dropdown-menu" role="menu">
+						<li id="edit-in-backend">
+							<a style="text-align: left;" t-attf-href="/web#return_label=Website&amp;view_type=form&amp;model=#{main_object._name}&amp;id=#{main_object.id}&amp;action=#{action}" class="btn btn-link btn-xs" title="Edit in backend">Edit in backend</a>
+						</li>
+						<li groups="website.group_website_designer" t-if="main_object._name == 'blog.post'">
+							<form class="duplicate hidden" action="/blog/post_duplicate" method="POST">
+								<input type="hidden" name="csrf_token" t-att-value="request.csrf_token()"/>
+								<input name="blog_post_id" t-att-value="blog_post.id if blog_post else None"/>
+							</form>
+							<a href="#" class="duplicate" onclick="$(this).prev('form').submit()">Duplicate</a>
+						</li>								
+					</ul>
+				</li>
+				<li t-if="translatable">
+					<a data-action="translate" href="#">TRANSLATE</a>
+				</li>
+				<li t-if="translatable">
+					<a data-action="edit_master" href="#">or Edit Master</a>
+				</li>
+			</ul>
+		</nav>		
+	</template>
+</odoo>
